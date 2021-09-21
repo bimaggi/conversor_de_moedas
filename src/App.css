@@ -1,0 +1,76 @@
+body{
+    background-color: rgba(0, 0, 0, 0.26);
+    text-align: center;
+}
+.dolarHoje{
+    max-width: 60%;
+    margin: auto;
+    text-align: center;
+    padding: 20px;
+    margin-top: 5%;
+    font-size: 3rem;
+    color:  rgb(5, 71, 94);
+}
+.convert{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+    margin-top: 5%;
+
+}
+.converter{
+    background-color: rgb(5, 71, 94);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    border: 1px solid black;
+    color: white;
+}
+input{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding: 10px;
+    border-radius: 5px;
+}
+button{
+    width: 40%;
+    margin: auto;
+    padding: 8px;
+    border-radius: 5px;
+    font-size: 1rem;
+    margin-bottom: 5%;
+}
+
+@media(max-width:768px){
+    .dolarHoje{
+        max-width: 100%;
+        padding: 10px;
+        margin-top:10%;
+        font-size: 2rem;
+        color:  rgb(5, 71, 94);
+    }
+    .convert{
+        flex-direction: column;
+        margin: 5%;
+        width: 90%;
+    }
+    .converter{
+        padding: 15px;
+        margin-bottom: 5%;
+    }
+    input{
+        margin-bottom: 8%;
+    }
+    button{
+        width: 50%;
+    }
+    h1{
+        font-size: x-large;
+    }
+    p{
+        font-size: 1rem;
+    }
+
+}

@@ -1,11 +1,13 @@
 import React from 'react';
+import Convert from './components/Convert';
+import './App.css'
+
 
 function App() {
   return (
-    <div>
-      Hello word
-    </div>
+    <>
+    <Convert/>       
+    </>
   );
 }
-
 export default App;
