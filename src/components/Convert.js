@@ -10,16 +10,7 @@ function Convert(){
     const [amountDollar, setAmountDollar] = useState()
     const [amountReal, setAmoutReal] = useState()
 
-    function handleChangeDollar(e){
-        let amountDollar = e.target.value
-        setAmountDollar(amountDollar)
-        
-    }
-    function handleChangeReal(e){
-        let amountReal = e.target.value
-        setAmoutReal(amountReal)
-    }
-
+   
     function convertDolar(){
         let resultDolar = amountDollar / dollarToday
         setCurrencyAmountDollar(resultDolar)
@@ -45,13 +36,13 @@ function Convert(){
         <div className="convert">
             <div className= "converter">
                 <h1>Converte Real em Dolar </h1>
-                <input type="number" onChange={handleChangeDollar} value={amountDollar}/>
+                <input type="number" onChange={(e)=>setAmountDollar(e.target.value)} value={amountDollar}/>
                 <button onClick={convertDolar}>Converte</button>
                 <p><strong>Valor convertido: </strong>$ {currencyAmountDollar}</p>
             </div>
             <div className= "converter">
                 <h1>Converte Dolar em Real </h1>
-                <input type="number"  onChange={handleChangeReal} value={amountReal}/>
+                <input type="number"  onChange={(e)=>setAmoutReal(e.target.value)} value={amountReal}/>
                 <button onClick={convertReal}>Converte</button>
                 <p><strong>Valor convertido: </strong>R$ {currencyAmountReal}</p>
             </div>

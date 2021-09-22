@@ -1,22 +1,26 @@
 body{
-    background-color: rgba(0, 0, 0, 0.26);
+    background-image: url('https://einvestidor.estadao.com.br/wp-content/uploads/sites/715/2021/05/dolarreal_110520213744.jpg');
+    background-repeat: no-repeat; 
+    background-size:cover;
     text-align: center;
 }
 .dolarHoje{
     max-width: 60%;
+    background-color: rgb(5, 71, 94);
     margin: auto;
     text-align: center;
-    padding: 20px;
+    padding: 15px;
     margin-top: 5%;
     font-size: 3rem;
-    color:  rgb(5, 71, 94);
+    color: white;
+    border-radius: 5px;
 }
 .convert{
     display: flex;
     flex-direction: row;
     width: 100%;
     justify-content: space-around;
-    margin-top: 5%;
+    margin-top: 8%;
 
 }
 .converter{
