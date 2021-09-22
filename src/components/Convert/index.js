@@ -42,7 +42,7 @@ function Convert(){
             </div>
             <div className= "converter">
                 <h1>Converte Dolar em Real </h1>
-                <input type="number"  onChange={(e)=>setAmoutReal(e.target.value)} value={amountReal}/>
+                <input type="number" onChange={(e)=>setAmoutReal(e.target.value)} value={amountReal}/>
                 <button onClick={convertReal}>Converte</button>
                 <p><strong>Valor convertido: </strong>R$ {currencyAmountReal}</p>
             </div>
