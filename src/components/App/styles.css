@@ -61,7 +61,8 @@ footer p{
         padding: 10px;
         margin-top:10%;
         font-size: 2rem;
-        color:  rgb(5, 71, 94);
+        color: white;
+
     }
     .convert{
         flex-direction: column;
@@ -83,6 +84,12 @@ footer p{
     }
     p{
         font-size: 1rem;
+    }
+    footer p{
+        width: 100%;
+        font-size: 1rem;
+        
+        margin-top:4%;
     }
 
 }
