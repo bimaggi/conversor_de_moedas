@@ -78,6 +78,8 @@ footer p{
     }
     button{
         width: 50%;
+        background-color: white;
+       
     }
     h1{
         font-size: x-large;
