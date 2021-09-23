@@ -19,7 +19,7 @@ No diretório  do projeto você pode executar:
 
 ## Visualizar o projeto
 
-[Converte Dólar em Real] (https://cambiodollar.netlify.app/)
+https://cambiodollar.netlify.app/
 
 
 
